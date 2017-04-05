@@ -132,6 +132,7 @@ class ShopVC: UIViewController,UITableViewDelegate,UITableViewDataSource,ShopCel
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        
         let cell:ShopCell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! ShopCell
         cell.delegate = self
         cell.selectionStyle = .none
