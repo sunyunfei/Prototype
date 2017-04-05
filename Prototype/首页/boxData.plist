@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>boxId</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>3-Stripes Performance Team Bag Small</string>
+			<key>oldPrice</key>
+			<string>101.23</string>
+			<key>newPrice</key>
+			<string>100.20</string>
+			<key>icon</key>
+			<string>AJ9997_02_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>1</integer>
+			<key>title</key>
+			<string>3D Gym Sack</string>
+			<key>oldPrice</key>
+			<string>43.02</string>
+			<key>newPrice</key>
+			<string>30.20</string>
+			<key>icon</key>
+			<string>BJ9572_01_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>2</integer>
+			<key>title</key>
+			<string>OT Team Bag</string>
+			<key>oldPrice</key>
+			<string>19.20</string>
+			<key>newPrice</key>
+			<string>15.10</string>
+			<key>icon</key>
+			<string>S99541_03_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>3</integer>
+			<key>title</key>
+			<string>Trefoil Backpack</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>BK6723_03_standard</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>boxId</key>
+			<integer>4</integer>
+			<key>title</key>
+			<string>Finale Cardiff Ball</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>AZ5200_01_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>5</integer>
+			<key>title</key>
+			<string>Finale Cardiff Mini Ball</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>AZ9608_02_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>6</integer>
+			<key>title</key>
+			<string>Finale Cardiff Top Ball</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>AZ9609_01_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>7</integer>
+			<key>title</key>
+			<string>miCoach SMART BALL</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>G83963_01_standard</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>boxId</key>
+			<integer>8</integer>
+			<key>title</key>
+			<string>CMMTTD Chill Bra</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>BK3113_01_laydown</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>9</integer>
+			<key>title</key>
+			<string>Crossback Bra</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>BP6116_01_laydown</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>10</integer>
+			<key>title</key>
+			<string>Run Climachill Crop Top</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>S99240_01_laydown</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>11</integer>
+			<key>title</key>
+			<string>STELLASPORT Bra</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>AZ7793_01_laydown</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>boxId</key>
+			<integer>12</integer>
+			<key>title</key>
+			<string>Dragon OG Shoes Black  </string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>BB1266_03_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>13</integer>
+			<key>title</key>
+			<string>Stan Smith Shoes</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>S82247_01_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>14</integer>
+			<key>title</key>
+			<string>Stan Smith Shoes Black</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>S82249_01_standard</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>15</integer>
+			<key>title</key>
+			<string>Stan Smith Shoes Green</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>BB0007_01_standard</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>boxId</key>
+			<integer>16</integer>
+			<key>title</key>
+			<string>CLFN Long Sleeve Tee Black</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>BK5864_02_laydown</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>17</integer>
+			<key>title</key>
+			<string>CLFN Tee White</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>AZ8128_01_laydown</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>18</integer>
+			<key>title</key>
+			<string>FreeLift Climachill Tee Black</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>B45897_01_laydown</string>
+		</dict>
+		<dict>
+			<key>boxId</key>
+			<integer>19</integer>
+			<key>title</key>
+			<string>Trefoil Tee Black</string>
+			<key>oldPrice</key>
+			<string>89.20</string>
+			<key>newPrice</key>
+			<string>80.00</string>
+			<key>icon</key>
+			<string>AJ8830_01_laydown</string>
+		</dict>
+	</array>
+</array>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="129" id="KGk-i7-Jjw" customClass="NewsCell" customModule="Prototype" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ci7-X0-Z6L">
+                        <rect key="frame" x="16" y="16" width="175" height="18"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发布时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zoe-HW-w7Y">
+                        <rect key="frame" x="16" y="98" width="175" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="BdI-9K-uNa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="con-gN-DUw">
+                        <rect key="frame" x="199" y="8" width="113" height="113"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="con-gN-DUw" secondAttribute="height" multiplier="1:1" id="jw7-b2-p23"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="con-gN-DUw" firstAttribute="leading" secondItem="ci7-X0-Z6L" secondAttribute="trailing" constant="8" id="Vs7-jA-rJa"/>
+                    <constraint firstItem="ci7-X0-Z6L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="WkH-oq-z1L"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Zoe-HW-w7Y" secondAttribute="bottom" constant="8" id="XJF-IK-JPs"/>
+                    <constraint firstItem="con-gN-DUw" firstAttribute="leading" secondItem="Zoe-HW-w7Y" secondAttribute="trailing" constant="8" id="evz-92-7uq"/>
+                    <constraint firstAttribute="bottom" secondItem="con-gN-DUw" secondAttribute="bottom" constant="8" id="kAz-JO-tmF"/>
+                    <constraint firstItem="Zoe-HW-w7Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="sbo-II-S3K"/>
+                    <constraint firstAttribute="trailing" secondItem="con-gN-DUw" secondAttribute="trailing" constant="8" id="sqO-sB-WOh"/>
+                    <constraint firstItem="ci7-X0-Z6L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="uBC-th-5RX"/>
+                    <constraint firstItem="con-gN-DUw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="whZ-eY-YB0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="con-gN-DUw" id="6gR-Ng-94H"/>
+                <outlet property="timeLabel" destination="Zoe-HW-w7Y" id="FZM-E4-El1"/>
+                <outlet property="titleLabel" destination="ci7-X0-Z6L" id="G6W-7J-CdT"/>
+            </connections>
+            <point key="canvasLocation" x="-82" y="-52.5"/>
+        </tableViewCell>
+    </objects>
+</document>

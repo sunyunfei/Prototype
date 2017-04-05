@@ -15,32 +15,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //高德地图
+        AMapServices.shared().apiKey = "17eddda860e07ceda5b69e097f337879"
+        //支付接入
+        PayPalMobile .initializeWithClientIds(forEnvironments: [PayPalEnvironmentProduction: "AYv7DhKeLsbpOrBdeqAKyPzy35aNDhNETgwoN4yiizBxSWkwNIY3xfw8gYpazqSSANlPiEEInbigjLx7",
+                                                                PayPalEnvironmentSandbox: "Ad3cw4sqg26QyZU7L2uBxhzws1-esbH3koSHtJavk6E5HxQo6wE7FEUQ2vWFlgidtATGV-SztolGOvtG"])
+        
+        //加载初始界面
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
+        //判断是否已经登陆
+        UserDefaultsManager.shareInstance().obtainUserNameForDefaults().isEmpty == true ? loadLoginVC() : YFShowBaseTabVC.loadTabbarVC()
         return true
     }
 
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    //加载登录界面
+    func loadLoginVC(){
+        //打开login
+        let story:UIStoryboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let loginVC = story.instantiateViewController(withIdentifier: "login")
+        window?.rootViewController = loginVC
     }
-
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-    }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
-
 }
 
